@@ -41,6 +41,8 @@ import {
   vpc,
   next,
   python,
+  AICI,
+    telekom
 } from '../assets'
 
 
@@ -67,7 +69,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-stack AI application",
+    title: "Full-Stack AI Application",
     icon: web,
   },
   {
@@ -171,7 +173,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Working Student – Frontend Developer",
+    title: "Internship/Thesis",
+    company_name: "Deutsche Telekom (Andreas Kassler)",
+    icon: telekom,
+    iconBg:   "#FFFFFF",
+    date: "Apr 2026 - Present",
+    style: {
+    iconSize: "w-10 h-11",
+    iconBgOverride: "bg-white"
+  },
+    points:[
+  "Designing an intent-driven agent architecture that converts natural language inputs into structured JSON for deterministic workflow execution.",
+  "Building an LLM-based intent decomposition layer to extract actions, entities, constraints, and confidence scores from user queries.",
+  "Developing a modular routing system that dispatches structured intents to specialized agents based on domain and task type.",
+  "Defining structured schemas and validation rules to ensure consistent parsing and reduce ambiguity in downstream execution.",
+  "Enabling a scalable multi-agent workflow capable of handling search, transformation, analysis, and execution tasks through a unified intent pipeline."
+],
+  },
+
+    {
+    title: "Working Student – Software Engineer",
+    company_name: "AICI GMBH",
+    icon: AICI,
+    iconBg:  "#FFFFFF",
+    date: "Apr 2025 - Apr 2026",
+    points: [
+  "Built MESA, a desktop CAD-style engineering application using Electron, React, Three.js, Node.js, and PostgreSQL for site-survey and measurement workflows.",
+  "Enabled real-time telemetry streaming via WebSockets to power live 3D visualizations and operator monitoring/control in data-intensive environments.",
+  "Implemented core CAD capabilities (Line, Polyline, Spline, Arc, Trim, Extend, layering) with a custom 2D/3D rendering engine supporting precision geometry and constraints.",
+  "Ensured industry compatibility by converting internal JSON geometry into DWG/DXF formats through a Python-based processing pipeline.",
+  "Delivered a high-performance, reliable system with optimized rendering, offline-capable architecture, and scalable data handling for continuous real-time updates."
+],
+  },
+    {
+    title: "Working Student – AI Developer",
     company_name: "Mercedes-Benz",
     icon: MercedesBenzLogo,
     iconBg: "#1A1A1A",
@@ -188,7 +223,7 @@ const experiences = [
     title: "Frontend Developer",
     company_name: "SOFTOO (Pvt.) Ltd.",
     icon: softoo,
-    iconBg: "#292C34",
+    iconBg: "#FFFFFF",
     date: "May 2022 - Apr 2024",
     points: [
       "Led frontend development for Thunder, an energy platform built with Next.js and TypeScript.",

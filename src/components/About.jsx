@@ -72,10 +72,9 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Frontend Developer with 5+ years of experience building data-driven SaaS platforms using React, Next.js, and
-          modern tooling. Skilled in real-time dashboards, schema-based form engines, and AI-integrated UIs. Known for
-          delivering measurable outcomes like load time reductions, faster feature rollouts, and performance improvements.
-          Experienced in cross-functional team collaboration, with strong focus on code quality, scalability
+          Software Engineer with 5+ years building high-performance TypeScript systems for real-time data and control interfaces. Ships production UIs powered by WebSockets and event-driven architectures.
+          Full-stack capable with hands-on backend and data pipelines. Now focused on AI engineering, building agent-based systems and RAG pipelines using LangChain, LangGraph, and vector databases.
+          Delivers fast, reliable systems that turn complex data into real-time decisions.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">

@@ -13,6 +13,8 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+    const iconSize = experience.style?.iconSize || "w-[90%] h-[90%]";
+  const iconWrapperBg = experience.style?.iconWrapperBg || experience.iconBg;
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -27,7 +29,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[90%] h-[90%] object-contain'
+            className={`${iconSize} object-contain`}
           />
         </div>
       }

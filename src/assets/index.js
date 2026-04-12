@@ -38,6 +38,8 @@ import netorc from './netorc.png';
 import vpc from './vpc.jpg';
 import next from './nextjs.webp';
 import python from './Python.png';
+import AICI from './AICI.png';
+import telekom from "./telekom.png"
 
 export {
   next,
@@ -79,5 +81,7 @@ export {
   wanclouds,
   softoo,
   netorc,
-  vpc
+  vpc,
+    AICI,
+    telekom
 };
